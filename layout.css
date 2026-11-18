@@ -1,0 +1,145 @@
+.pagina-sistema {
+    display: flex;
+    min-height: 100vh;
+}
+
+.menu-lateral {
+    width: 240px;
+    background-color: #dbe8f6;
+    border-right: 1px solid #c3d6ec;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 24px 0;
+}
+
+.logo-caixa {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 0 22px 28px 22px;
+}
+
+.logo-icone {
+    font-size: 28px;
+    color: #174988;
+}
+
+.logo-texto {
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 14px;
+    color: #174988;
+    line-height: 1.2;
+}
+
+.menu-navegacao {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 22px;
+    text-decoration: none;
+    color: #334155;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.menu-item:hover {
+    background-color: #c7dcf3;
+    color: #13427d;
+}
+
+.menu-item.ativo {
+    background: linear-gradient(90deg, #1b5aa8 0%, #2b74c7 100%);
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.menu-rodape {
+    padding: 16px 22px 0 22px;
+    border-top: 1px solid #c3d6ec;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.usuario-logado {
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    color: #1e3a5f;
+}
+
+.usuario-logado span {
+    font-size: 12px;
+    color: #475569;
+}
+
+.botao-sair {
+    background-color: #1b5aa8;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.botao-sair:hover {
+    background-color: #13427d;
+}
+
+.conteudo-principal {
+    flex: 1;
+    padding: 32px 40px;
+    background-color: #f4f7fb;
+}
+
+.titulo-pagina {
+    font-size: 26px;
+    color: #1e3a5f;
+    margin-bottom: 24px;
+}
+
+.topo-pagina {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.topo-pagina .titulo-pagina {
+    margin-bottom: 0;
+}
+
+.botao-primario {
+    background-color: #2366b8;
+    color: #ffffff;
+    padding: 10px 18px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.botao-primario:hover {
+    background-color: #174988;
+}
+
+.botao-secundario {
+    background-color: #dce7f5;
+    color: #1e3a5f;
+    padding: 10px 18px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.botao-secundario:hover {
+    background-color: #c6d8ef;
+}

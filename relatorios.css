@@ -1,0 +1,104 @@
+.painel-filtros-relatorio {
+    background-color: #ffffff;
+    border: 1px solid #dbe4f0;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-bottom: 20px;
+}
+
+.linha-filtro {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.linha-filtro label {
+    width: 80px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #1e3a5f;
+}
+
+.linha-filtro input,
+.linha-filtro select {
+    padding: 8px 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 14px;
+    background-color: #f8fafc;
+}
+
+.caixa-lista-relatorios {
+    background-color: #ffffff;
+    border: 1px solid #dbe4f0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.caixa-lista-relatorios h3 {
+    font-size: 13px;
+    color: #475569;
+    margin-bottom: 14px;
+}
+
+.lista-modelos {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.modelo-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #334155;
+    border: 1px solid transparent;
+}
+
+.modelo-item:hover {
+    background-color: #eef4fc;
+}
+
+.modelo-item.selecionado {
+    background-color: #dbeafe;
+    border-color: #93c5fd;
+    color: #1b5aa8;
+    font-weight: 600;
+}
+
+.botoes-rodape-relatorio {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.caixa-previa-relatorio {
+    background-color: #ffffff;
+    border: 1px solid #93c5fd;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.caixa-previa-relatorio h3 {
+    font-size: 16px;
+    color: #1e3a5f;
+    margin-bottom: 12px;
+}
+
+.lista-previa {
+    padding-left: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 14px;
+    color: #334155;
+}
